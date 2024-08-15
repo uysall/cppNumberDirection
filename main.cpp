@@ -4,7 +4,7 @@
 #include <string>
 
 void printFeedback(const std::string &secret, const std::string &guess) {
-    std::string feedback = "Feedback: ";
+    std::string feedback;
     for (int i = 0; i < 4; ++i) {
         if (guess[i] == secret[i]) {
             feedback += "+";
