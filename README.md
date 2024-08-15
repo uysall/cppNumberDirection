@@ -1,6 +1,22 @@
 # cppNumberDirection
 
+![image alt text goes here](https://www.aphel.com.tr/assets/img/aphel%20logo_white.png)
+**Wordle cppNumberDirection** 
 
+## terminal output:
+```cmd
+Player 1: 
+Enter your guess: 1000
+Feedback: XXXX
+
+Too low! It's Player 2's turn.
+
+Player 2:
+Enter your guess: 2400
+Feedback: +0XX
+
+Too low! It's Player 1's turn.
+```
 
 ## Şema
 ```mermaid
